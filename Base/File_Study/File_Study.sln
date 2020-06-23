@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File_Study", "File_Study\File_Study.csproj", "{E4FB22A6-4C91-4C2F-A79B-B434F0D128A4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "数组", "数组", "{9D7C227B-B175-44C4-8B19-F70ABE780D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyArray", "MyArray\MyArray.csproj", "{779C15CD-830E-4058-8484-2362045ACC8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{E4FB22A6-4C91-4C2F-A79B-B434F0D128A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4FB22A6-4C91-4C2F-A79B-B434F0D128A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4FB22A6-4C91-4C2F-A79B-B434F0D128A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{779C15CD-830E-4058-8484-2362045ACC8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{779C15CD-830E-4058-8484-2362045ACC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{779C15CD-830E-4058-8484-2362045ACC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{779C15CD-830E-4058-8484-2362045ACC8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{779C15CD-830E-4058-8484-2362045ACC8C} = {9D7C227B-B175-44C4-8B19-F70ABE780D17}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8761543C-E9B3-455A-B79F-89EAC77CA8A7}
