@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MyArray.ArrayPools;
+using MyArray.MySpan;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +12,13 @@ namespace MyArray
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("array");
+            //MyArrayPool.Test();
+
+            //MyArrayPool.Shared();
+
+            //MySpan.MySpan.Test();
+            MySpan.MySpan.TestSlice();
+
             Console.ReadKey();
         }
     }
